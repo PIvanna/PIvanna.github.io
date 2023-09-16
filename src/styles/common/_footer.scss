@@ -1,0 +1,188 @@
+.footer {
+    width: 1440px;
+    border-top: 2px solid #FF4E50 ;
+    margin: 100px auto 0;
+    height: 244px;
+      
+        &__main {
+            width: 944px;
+            margin: 37px auto 0;
+            display: flex;
+        }
+
+        &__logo {
+            width: 119px;
+            height: 20px;
+            font-family: 'm';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FF4E50;
+            margin-right: 122px;
+            margin-left: 1px;
+        }
+
+        &__menu1 {
+            height: 184px;
+            width: 114px;
+            margin-top: 1px;
+            margin-right: 125px;
+        }
+
+        &__menu1-h1 {
+           width: 70px;
+           height: 17px;
+           font-family: 'M';
+           font-style: normal;
+           font-weight: 700;
+           font-size: 14px;
+           line-height: 17px;
+           color: #444444;
+           letter-spacing: 0.3px;
+        }
+
+        &__menu1-ul {
+            width: 114px;
+            height: 156px;
+            margin-top: 11px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &__menu1-link {
+            font-family: 'R';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 26px;
+            color: #999999;
+            text-decoration-line: none;
+        }
+
+        &__h1-number2 {
+            width: 64px;
+            height: 17px;
+            font-family: 'M';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #444444;
+            margin-top: 1px;
+            letter-spacing: 0.3px;
+        }
+
+        &__des {
+            width: 110px;
+            height: 45px;
+            margin-left: 287px;
+        }
+
+        &__h1-number3 {
+            height: 12px;
+            width: 84px;
+            font-family: 'M';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 1.1px;
+            color: #CCCCCC;
+            margin-left: 30px;
+            margin-top: 1px;
+            margin-bottom: 7px;
+        }
+}
+
+@media screen and (max-width: 769px) {
+    .footer {
+        width: 768px;
+
+          &__main {
+              width: 692px;
+              margin: 38px auto 0;
+          }
+
+          &__logo {
+              margin-right: 108px;
+              margin-top: -1px;
+          }
+
+          &__menu1 {
+              margin-right: 56px;
+          }
+
+          &__h1-number3 {
+              margin-bottom: 6px;
+          }
+
+          &__des {
+              margin-left: 118px;
+          }
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .footer {
+        width: 320px;
+        margin: 41px auto 0;
+        height: 204px;
+            
+            &__main {
+                width: 320px;
+                margin: 20px auto 0;
+                display: flex;
+                flex-direction: column;
+            }
+
+            &__logo {
+                margin:-1px auto 12px;
+            }
+
+            &__menu1 {
+                height: 70px;
+                width: 188px;
+                margin: 0px auto 0px;
+            }
+
+            &__menu1-h1 {
+                margin: auto;
+            }
+
+            &__menu1-ul {
+                width: 188px;
+                height: 52px;
+                margin-top: 2px;
+                flex-direction: row;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+
+            &__menu1-link-l1  {
+                margin-left: 16px;
+                line-height: 24px;
+            }
+
+            &__menu1-link-l2 {
+                margin-right: 16px;
+                line-height: 23px;
+            }
+
+            &__h1-number2 {
+                margin: 6px auto 0;
+            }
+
+            &__des {
+                margin: 21px auto 0;
+            }
+
+            &__h1-number3 {
+                margin-left: 15px;
+                margin-top: -6px;
+                margin-bottom: 6px;
+            }
+    }
+}
+

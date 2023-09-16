@@ -1,0 +1,269 @@
+
+
+.header {
+    width: 1440px;
+    margin: auto;
+    background-image: url("../images/Bitmap.png");
+    height: 700px;    
+        &__up {
+            width: 901px;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            margin-left: 249px;
+        }
+    
+        &__logo {
+            height: 24px;
+            width: 152px;
+            font-family:'M';
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-top: 46px;
+            
+        }
+    
+        &__visit {
+            width: 160px;
+            height: 36px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            margin-right: 18px;
+        }
+    
+        &__sign {
+            font-family: 'm';
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            height: 17px;
+            width: 55px;
+            color: #FFFFFF;
+        }
+    
+        &__sign:hover {
+            border: #FFFFFF 2px solid;
+            border-radius: 40px;
+            width: 90px;
+            height: 36px;
+            margin-top: -10px;
+            margin-right: -17px;
+            text-align: center;
+            padding-top: 8px;
+        }
+    
+        &__login {
+            height: 17px;
+            width: 44px;
+            font-family: 'm';
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            color: #FFFFFF;
+            margin-left: 24px;
+        }
+       
+        
+    
+        &__login:hover {
+            border: #FFFFFF 2px solid;
+            border-radius: 40px;
+            width: 90px;
+            height: 36px;
+            margin-top: -10px;
+            margin-right: -17px;
+            text-align: center;
+            padding-top: 8px;
+            margin-left: 0;
+            
+        }
+    
+        &__main {
+            width: 470px;
+            height: 179.5px;
+            margin: auto;
+            margin-top: 137.5px;
+        }
+    
+        &__name-main {
+            width: 470px;
+            height: 126px;
+            font-family: 'EM';
+            font-size: 51px;
+            font-weight: 700;
+            line-height: 63px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    
+        &__text-main {
+            margin: 28.5px auto 0;
+            height: 25px;
+            width: 396px;
+            font-family: 'R';
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+    
+        }
+        
+        &__down {
+            height: 40px;
+            width: 225px;
+            border-radius: 40px;
+            background-color: #FF4E50;
+            margin: 33px auto 0;
+            padding-top: 12px;
+        }
+    
+        &__button {
+            color: #FFFFFF;
+            height: 17px;
+            width: 185px;
+            margin: auto;
+            font-family: 'M';
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 17px;
+            letter-spacing: 0.3px;
+        }
+}
+
+@media screen and (max-width: 769px) {
+    .header {
+        height: 700px;
+        width: 768px;
+        background-image: url("../images/Background.png");
+        margin: auto;
+             
+             &__name-main {
+                 width: 470px;
+                 letter-spacing: 0.3px;
+             }
+               
+             &__up {
+                 width: 670px;
+                 margin-left: 48px;
+             }
+ 
+             &__logo {
+                 margin-top: 46px;
+                 letter-spacing: 0.3px;
+             }
+      
+             &__login {
+                 margin-left: 25px;
+             }
+ 
+             &__login:hover {
+                 margin-left: 2px;
+             }
+ 
+             &__sign {
+                 margin-right: -1px;
+             }
+      
+              &__sign:hover {
+                  margin-right: -18px;
+              }
+ 
+             &__text-main {
+                 margin: 27.5px auto 0;
+             }
+ 
+             &__button {
+                 margin-left: 20px;
+                 letter-spacing: 0.4px;
+                 width: 188px;
+             }
+         }
+}
+
+@media screen and (max-width: 321px) {
+    .header {
+        width: 320px;
+        height: 541px;
+        background-image: url("../images/Background2.png");
+        margin-left: 10px;
+        
+            &__up {
+                width: 153px;
+                display: flex;
+                flex-direction: column-reverse;
+                margin-left: 83px;
+            
+            }
+    
+            &__logo {
+                height: 24px;
+                margin-top: 87px;
+                margin-left: 3px;
+                letter-spacing: 0.3px;
+            }
+    
+            &__visit {
+                width: 153px;
+                height: 36px;
+                margin-top: 30px;
+                margin-right: 0px;
+            }
+    
+            &__sign {
+                margin-right: 26px;
+            }
+        
+            &__login {
+                margin-left: -9px;
+            }
+    
+            &__sign:hover {
+                margin-right: 9px;
+            }
+    
+            &__login:hover {
+                margin-left: -33px;
+            }
+    
+            &__main {
+                width: 273px;
+                height: 128.5px;
+                margin-top: 26.5px;
+            }
+        
+            &__name-main {
+                height: 74px;
+                width: 276px;
+                font-size: 30px;
+                line-height: 37px;
+                letter-spacing: 0.1px;
+                margin-left: -1px;
+            }
+        
+            &__text-main {
+                margin: 5.5px auto 0;
+                width: 272px;
+                height: 49px;
+                font-size: 18px;
+                line-height: 25px;
+
+        
+            }
+    
+            &__down {
+                width: 280px;
+                margin: 15px auto 0;
+            }
+        
+            &__button {
+                width: 188px;
+                margin-left: 47px;
+                text-align: center;
+                letter-spacing: 0.4px;
+            }
+    }
+}
